@@ -1,6 +1,7 @@
 
-let shahid = document.getElementsByClassName("islam")
+let islam = document.getElementsByClassName("islam")
+let good = islam.innerText
+console.log(good);
 
-for(let i=0; i<shahid.length; i++){
-    shahid[i].style.color="red"
-}
+
+
