@@ -21,14 +21,22 @@
 // console.log(previousChildren.style.color = "red");
 
 
-// createElement
-const divElement = document.createElement("div")
-console.log(divElement);
+// createElement and insertBefore
+// let divElement = document.createElement("div")
+// divElement.className = "red"
+// divElement.setAttribute("id", "red div")
+// divElement.innerHTML = "amr sonar bangla ami tomay"
+// let container = document.querySelector(".grandParent")
+// let h1Element = document.querySelector("h1")
+// container.insertBefore(divElement, h1Element)
+
+// use appendChild
+let divElement = document.createElement("div")
+divElement.innerText = "shahidul islam shohid"
 divElement.className = "red"
 divElement.setAttribute("id", "red div")
 let container = document.querySelector(".grandParent")
-let h1Element = document.querySelector("h1")
-container.insertBefore(divElement, h1Element)
+container.appendChild(divElement)
 
 
 
