@@ -31,12 +31,32 @@
 // container.insertBefore(divElement, h1Element)
 
 // use appendChild
-let divElement = document.createElement("div")
-divElement.innerText = "shahidul islam shohid"
-divElement.className = "red"
-divElement.setAttribute("id", "red div")
-let container = document.querySelector(".grandParent")
-container.appendChild(divElement)
+// let divElement = document.createElement("div")
+// divElement.innerText = "shahidul islam shohid"
+// divElement.className = "red"
+// divElement.setAttribute("id", "red div")
+// let container = document.querySelector(".grandParent")
+
+// // container.appendChild(divElement)
+// // container.append("amar sonar bangal")
+// // container.append(divElement, "shidul islam", document.createElement("div"))
+
+// use addEventListener 
+// let headerElement = document.querySelector(".mouse")
+// headerElement.addEventListener("mouseleave", (even)=>{
+//     console.log(even);
+    
+// })
+
+// usee addEventListener for input 
+let  inputElement = document.querySelector('input[type="text"]')
+
+inputElement.addEventListener("input", (even)=>{
+    console.log(even);
+    
+})
+
+
 
 
 
