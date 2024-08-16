@@ -49,12 +49,13 @@
 // })
 
 // usee addEventListener for input 
-let  inputElement = document.querySelector('input[type="text"]')
-
-inputElement.addEventListener("input", (even)=>{
-    console.log(even);
+// let  inputElement = document.querySelector("form")
+// let inputElement = document.querySelector('input[type="text"]')
+// inputElement.addEventListener("keydown", (even)=>{
+//     // even.preventDefault();
+//     console.log(even.target.value);
     
-})
+// })
 
 
 
